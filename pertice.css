@@ -1,0 +1,25 @@
+body {
+    background-image: url(khan.png);
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+
+#clock-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+#clock {
+    font-family: monospace;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    color: aliceblue;
+    margin-top: 100px;
+    backdrop-filter: blur(5px);
+
+}
